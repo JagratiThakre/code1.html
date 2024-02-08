@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="#" method="get">
+                <div style="position: relative;
+                 display:flex; 
+                 flex-direction: column; 
+                 background-color: #2cc9e9;
+                 align-items: center;
+                 justify-content: center;">
+
+                <div style="background-color: white;
+                 padding: 3%; 
+                 margin:5%;
+                 border-radius: 6%">
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <table>
+                            <tr>
+                                <td>Candidate Name</td>
+                                <td><input type="text" name="t1"></td>
+                            </tr>
+                            <tr>
+                                <td>Mother/Guardian Name</td>
+                                <td><input type="text" name="t2"></td>
+                            </tr>
+                            <tr>
+                                <td>Father/Guardian Name</td>
+                                <td><input type="text" name="t3"></td>
+                            </tr>
+                            <tr>
+                                <td>Date of Birth</td>
+                                <td><input type="date" name="dob"></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><input type="email" pattern="+@example\+.com" name="email"></td>
+                            </tr>
+                           <tr>
+                                <td>Contact</td>
+                                <td><input type="tel" pattern="+1222333456" name="email"></td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td><input type="radio"  name="gen" value="female">female
+                                <input type="radio"  name="gen" value="male">male
+                                <input type="radio"  name="gen" value="other">other
+                            </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Current Address</td>
+                            </tr>
+                            <tr>
+                            <td colspan="2">
+                                <textarea cols="50" rows="4"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Parmanent Address</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea cols="50" row="4"></textarea></td>
+                        </tr>
+                     </table>
+                    </fieldset>
+                </div>
+                <div  style="background-color: white;
+                padding: 3%; 
+                width:40%;
+                margin: 5%;
+                border-radius: 6%">
+                    <fieldset>
+                    <legend> Educational information</legend>
+                    <table>
+                        <tr>
+                            <td>Select X Board</td>
+                            <td><select name="Xthboard">
+                                <option name="CBSE">CBSE</option>
+                                <option name="MPboard">MPboard</option>
+                                <option name="ICSC">ICSC</option>
+                                <option name="IGCSE">IGCSE</option>
+                            </select>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>X /Higher Secondary</td>
+                            <td><input type="text" value="10th Board"></td>
+                        </tr>
+                        <tr> 
+                            <td>Select XII Board</td>
+                            <td><select name="XIIthboard">
+                                <option name="CBSE">CBSE</option>
+                                <option name="MPboard">MPboard</option>
+                                <option name="ICSC">ICSC</option>
+                                <option name="IGCSE">IGCSE</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>XII /Senior Secondary</td>
+                            <td><input type="text" value="12th Board"></td>
+                        </tr>
+                    </table>
+                </fieldset></div>
+                <div style="background-color: white;
+                padding: 3%; 
+                width:40%;
+                margin: 5%;
+                border-radius: 6%">
+                <fieldset>
+                    <legend>Bank Details</legend>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>Bank Name:</td>
+                                <td><input type="text" name="bankName"></td>
+                            </tr>
+                            <tr>
+                                <td>IFSC code:</td>
+                                <td><input type="text" name="ifsc"></td>
+                            </tr>
+                            <td>Account Number:</td>
+                            <td>
+                                <input type="text"  name="accn">
+                            </td>
+                        </table>
+                    </div>
+                </fieldset></div></div>
+            </div>
+            <div><input type="submit" value="Add record"></div>
+            <div><input type="reset" value="Reset"></div>
+        </form>
+        </section>
+    </main>
+</body>
+</html>
